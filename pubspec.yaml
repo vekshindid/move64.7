@@ -1,0 +1,26 @@
+name: move64
+version: 0.6.0+5
+description: Offline chess training planner
+publish_to: none
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  flutter_localizations:
+    sdk: flutter
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/app_icon.png
+  adaptive_icon_background: "#10131B"
+  adaptive_icon_foreground: assets/app_icon.png
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.png
